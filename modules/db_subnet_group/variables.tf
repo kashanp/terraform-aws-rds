@@ -25,7 +25,7 @@ variable "description" {
 variable "subnet_ids" {
   description = "A list of VPC subnet IDs"
   type        = list(string)
-  default     = []
+  default     = ["subnet-0d34f1bebfc357ecf","subnet-072f8c44b18fc54f7"]
 }
 
 variable "tags" {
